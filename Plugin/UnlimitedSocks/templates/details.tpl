@@ -112,7 +112,7 @@ background-color: rgba(0, 0, 0, .3);
                         </thead>
                         <tbody>
                             <tr>
-                                <td>{$HTTP_HOST}/modules/servers/UnlimitedSocks/subscribe.php?sid={$serviceid}&token={$subscribe_token}</td>
+                                <td>http://{$HTTP_HOST}/modules/servers/UnlimitedSocks/subscribe.php?sid={$serviceid}&token={$subscribe_token}</td>
                                 <!--<td>{$subscribe_token}</td>-->
                                 <td class="hidden-xs hidden-sm"><button type='button' class='btn btn-danger btn-block' onclick='ResetToken{$serviceid}()'>{get_lang('reset_subscribe_token')}</button>
                                 <script>
